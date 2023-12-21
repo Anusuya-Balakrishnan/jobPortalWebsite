@@ -1,0 +1,30 @@
+.aboutpage {
+  width: 100%;
+  height: 80vh;
+  padding: 100px 0;
+  background-color: rgb(248, 249, 250);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.aboutChild {
+  width: 240px;
+  margin: 20px;
+}
+.aboutChild img {
+  width: 70px;
+  height: 70px;
+}
+.aboutChild h1 {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(109, 109, 110);
+  margin: 20px 0;
+}
+/* 177FFB*/
+.aboutChild p {
+  color: rgb(173, 173, 173);
+  line-height: 2;
+}

@@ -1,0 +1,140 @@
+.landingPage {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url(../images/bg_2.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+  /* padding: 0 140px; */
+}
+.landingPage__child1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.185);
+}
+.landingPage__child2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 0 140px;
+}
+.landingPage__navbar {
+  width: 100%;
+  height: 120px;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 150px; */
+  color: white;
+}
+.landingPage__navbar--part1 {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 800;
+}
+.landingPage__navbar--part2 ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.landingPage__navbar--part2 ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.landingPage__navbar--part2 ul li a:hover {
+  color: rgb(198, 204, 209);
+}
+
+.landingPage__navbar--part2 ul .postJobBtn {
+  border-radius: 5px;
+  padding: 15px 20px;
+  background-color: rgb(21, 126, 251);
+}
+.landingPage__navbar--part2 ul .wantJobBtn {
+  border-radius: 5px;
+  padding: 15px 20px;
+  background-color: rgb(93, 210, 142);
+}
+
+.landingPage__content {
+  width: 100%;
+  height: auto;
+  /* background-color: rgb(0, 85, 255); */
+}
+.landingPage__content .title {
+  font-size: 20px;
+  font-weight: 500;
+  word-spacing: 2px;
+  color: rgb(198, 204, 209);
+}
+
+.landingPage__content .bigTitle {
+  padding-top: 30px;
+  font-size: 75px;
+  color: white;
+  line-height: 1;
+}
+.subtitle {
+  color: white;
+  font-size: 70px;
+  line-height: 1;
+  letter-spacing: 1.2px;
+  font-weight: 300;
+}
+.landingPage__form {
+  padding-top: 50px;
+}
+/* .landingPage__form */
+
+.landingPage__form .button__element button {
+  border: none;
+  background-color: white;
+  padding: 15px 25px;
+  color: rgb(105, 105, 105);
+  font-size: 18px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  /* border-radius: 4px; */
+}
+.landingPage__form .button__element button:hover {
+  background-color: rgb(21, 126, 251);
+  color: white;
+}
+
+.landingPage__form .form__element {
+  position: relative;
+  bottom: 5px;
+  width: 920px;
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  border-radius: 10px;
+}
+.landingPage__form .form__element div {
+  width: 200px;
+  margin: 10px;
+  border: 1px solid rgb(189, 189, 189);
+  padding: 15px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+input {
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  font-size: 14px;
+}
+.searchBtn {
+  background-color: rgb(21, 126, 251);
+  color: white;
+}
+.searchBtn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(189, 189, 189);
+}

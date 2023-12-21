@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(0, 42, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.firstPart {
+  font-size: 23px;
+}
+.secondPart {
+  display: flex;
+}
+.secondPart div {
+  padding: 15px 20px;
+  margin: 0 20px;
+}
+/* .postJobBtn,
+.wantJobBtn {
+  margin: 0;
+} */
+.secondPart .postJobBtn {
+  margin: 0 10px;
+  border-radius: 5px;
+  background-color: rgb(21, 126, 251);
+}
+.secondPart .wantJobBtn {
+  margin: 0 10px;
+  border-radius: 5px;
+
+  background-color: #108313;
+}
