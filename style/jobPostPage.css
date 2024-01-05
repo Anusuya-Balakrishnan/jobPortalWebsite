@@ -1,0 +1,23 @@
+.jobPostPage {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 150px 0;
+}
+.jobPostPage .jobPostPage__title {
+  text-align: center;
+}
+.jobPostPage .jobPostPage__title .title1 {
+  color: rgb(109, 109, 110);
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+.jobPostPage .jobPostPage__title .title2 {
+  font-size: 40px;
+}
+.jobPostPage .jobPostPage__title .title2 span {
+  font-weight: bolder;
+}/*# sourceMappingURL=jobPostPage.css.map */
